@@ -1,0 +1,67 @@
+/* Navbar.css */
+
+/* Style the main navigation container */
+/* Navbar.css */
+
+/* Style the website title */
+.navbar-title {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Add or remove font weight as desired */
+    text-decoration: none; /* Remove the default underline for links */
+    color: #000000; /* Change the color to your preferred value */
+    margin-right: 20px; /* Add spacing between the title and other links */
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+nav {
+    background-color: #dc6c88;
+    color: #ea9595;
+    padding:15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5%;
+    }
+  
+  /* Style the links in the navbar */
+  nav a {
+    color: #090809;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    transition: color 0.1s ease;
+  }
+  
+  /* Style the links on hover */
+  nav a:hover {
+    color: #000000; /* Change to your desired hover color */
+  }
+  .active-item {
+    color: #ff0000; /* Change to your desired color */
+  }
+  
+  /* Style the search input field */
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  /* Style the login link */
+  nav a.login-link {
+    background-color: #ff5722; /* Change to your desired button color */
+    color: #32888f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Style the login link on hover */
+  nav a.login-link:hover {
+    background-color: #e5471b; /* Change to your desired hover color */
+  }
+  
